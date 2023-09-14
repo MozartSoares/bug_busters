@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container nav li a {
+    text-decoration: none;
+}
+header .container{
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+header .nome_slogan h1 {
+    text-align: center;
+    border: 1px solid #5ebb46;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+header .nome_slogan h3 {
+    font-family: 'Nunito', sans-serif;
+    margin-top: 9px;
+}
+
+header .nome_slogan h3 {
+    text-decoration: underline 1px solid #5ebb46;
+}
+
+header img {
+    height: 90px;
+}
+
+header {
+    padding: 16px;
+    background-color:#003174;
+    color:  #5ebb46;
+}
+
+header nav li {
+    display:inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a{
+    color: #5ebb46;
+}
+
+#sobre img{
+    margin-right: 32px;
+    size: 640 x 480;
+}
+
+.redes_sociais img {
+    margin-left: 100px;
+    height: 640px;
+    margin-top: 50px;
+}
+
+section .container {
+    max-width: 1288px;
+    width: 100%;
+    margin: 0 auto;
+}
