@@ -5,39 +5,44 @@
 }
 .container nav li a {
     text-decoration: none;
+    font-weight: 700;
 }
-header .container{
-    max-width: 1366px;
+
+body {
+    background-color: #5ebb46;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header .container, 
+footer .rodape {
+    max-width: 1288px;
     width: 100%;
     margin: 0 auto;
     justify-content: space-between;
     display: flex;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
+    align-items: center;
 }
 
 header .nome_slogan h1 {
     text-align: center;
-    border: 1px solid #5ebb46;
+    border: 5px solid #5ebb46;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-style: italic;
 }
 
-header .nome_slogan h3 {
+header .nome_slogan h2 {
     font-family: 'Nunito', sans-serif;
     margin-top: 9px;
-}
-
-header .nome_slogan h3 {
-    text-decoration: underline 1px solid #5ebb46;
 }
 
 header img {
     height: 90px;
 }
 
-header {
+header{
     padding: 16px;
     background-color:#003174;
     color:  #5ebb46;
@@ -53,19 +58,115 @@ header nav li a{
     color: #5ebb46;
 }
 
-#sobre img{
-    margin-right: 32px;
-    size: 640 x 480;
+#sobre {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1288px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: ;
 }
 
-.redes_sociais img {
-    margin-left: 100px;
-    height: 640px;
-    margin-top: 50px;
+#sobre img {
+    margin:10px 20px 20px 10px;
+    height: 480px;
 }
 
-section .container {
+#sobre h2, 
+#sobre p{
+    color: #5ebb46;
+    background-color: #1f1e1e;
+    border: 5px solid  #004f9f;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#sobre p {
+    color:#5ebb46;
+    font-weight: 500;
+}
+
+#sobre h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+
+}
+
+#contatos {
+    color: #1f1e1e;
+    font-weight: 500;
+}
+
+#contatos h2, #contatos h3 {
+    margin: 0px 0px 5px 0px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, form textarea , form button {
+    display: block;
+    align-items: center;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form input:focus, form textarea:focus {
+    outline-color:#004f9f;
+}
+
+form button {
+    background-color: #004f9f;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600px;
+}
+
+form button:hover {
+    background-color: #003174;
+}
+
+form textarea {
+    height: 180px;
+    resize: none;
+}
+
+.regioes li {
+    align-items: column;
+}
+
+.redes_sociais img ,#yt{
+    height: 32px;
+    align-items: column;
+    justify-content: space-between;
+    display: inline;
+}
+
+.redes_sociais ul li a {
+    text-decoration: none;
+}
+
+section .container,
+#contatos,
+#sobre {
     max-width: 1288px;
     width: 100%;
     margin: 0 auto;
 }
+
+footer {
+    text-align: start;
+    justify-content: flex-start;
+    background-color: #003174;
+}
+
+footer img, footer #ssl{
+    height: 45px;;
+}
+
